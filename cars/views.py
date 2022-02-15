@@ -1,7 +1,12 @@
-from unittest.util import _MAX_LENGTH
-from django.shortcuts import render
 
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
 # Create your views here.
 
+@api_view(['GET'])  
+def car_list(request):
+
+
+    return Response('ok') 
 
     
